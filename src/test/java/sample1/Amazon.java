@@ -14,6 +14,7 @@ public class Amazon {
 	  WebDriverManager.chromedriver().setup();
 	  WebDriver driver = new ChromeDriver();
 	  driver.get("https://www.amazon.in/");
+	  System.out.println("Hi I amde Changes");
 	  driver.quit();  
   }
 }
