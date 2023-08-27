@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening flipKart]]>
+    </line>
+    <line>
+      <![CDATA[Opening FaceBook]]>
+    </line>
+    <line>
+      <![CDATA[Opening Amazaon]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36289" started-at="2023-08-26T17:17:08 IST" finished-at="2023-08-26T17:17:45 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36289" started-at="2023-08-26T17:17:08 IST" finished-at="2023-08-26T17:17:45 IST">
+      <class name="sample1.Facebook">
+        <test-method status="PASS" signature="facebookTest()[pri:0, instance:sample1.Facebook@3d921e20]" name="facebookTest" duration-ms="5109" started-at="2023-08-26T17:17:25 IST" finished-at="2023-08-26T17:17:30 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening FaceBook]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- facebookTest -->
+      </class> <!-- sample1.Facebook -->
+      <class name="sample1.FlipKart">
+        <test-method status="PASS" signature="flipKartTest()[pri:0, instance:sample1.FlipKart@3234e239]" name="flipKartTest" duration-ms="16815" started-at="2023-08-26T17:17:08 IST" finished-at="2023-08-26T17:17:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening flipKart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flipKartTest -->
+      </class> <!-- sample1.FlipKart -->
+      <class name="sample1.Amazon">
+        <test-method status="PASS" signature="amazonTest()[pri:0, instance:sample1.Amazon@36b4cef0]" name="amazonTest" duration-ms="14251" started-at="2023-08-26T17:17:30 IST" finished-at="2023-08-26T17:17:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Amazaon]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+      </class> <!-- sample1.Amazon -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
